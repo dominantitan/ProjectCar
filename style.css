@@ -6,12 +6,19 @@ body {
 }
 
 .Content-1,
+.hcontents,
+.Content-2 p,
+.c3text {
+    width:70%;
+    margin:0px auto;
+}
+
+
+.Content-1,
 .hcontents {
     display:flex;
     flex-direction: column;
-    width:70%;
     gap: 32px;
-    margin: 0 auto;
 }
 
 .Hero {
@@ -70,7 +77,6 @@ h2 {
 
 .Content-1 {
     text-align: center;
-    margin:0px auto;
     margin-bottom: 100px;
 }
 
@@ -94,11 +100,35 @@ h2 {
     text-align: left;
     font-size: 36px;
     font-weight: 300px;
-    width:70%;
-    margin:0 auto;
 }
 
 .Content-2 strong {
     font-size: 36px;
     float:right;
 }
+
+.Content-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    Padding:100px;
+}
+
+.c3text{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 12px;
+    color:#E5E7EB;
+    padding: 20px 80px;
+}
+
+.outline{
+    color:#F9F8FA;
+    background-color:#3882F6;
+    padding:8px;
+    border:solid 2px #F9F8FA;
+    border-radius: 12px;
+}
+
