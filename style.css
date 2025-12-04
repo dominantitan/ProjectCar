@@ -4,6 +4,7 @@ body {
     flex-direction:column;
 }
 
+.Content-1,
 .hcontents {
     display:flex;
     flex-direction: column;
@@ -59,3 +60,20 @@ h1 {
     padding: 8px;
     border-radius: 12px;
 }
+
+.Content-1 {
+    text-align: center;
+    margin:32px auto;
+}
+
+.boxes {
+    display:flex;
+}
+
+.same {
+    height: auto;
+    width: 100px;
+    border: solid 5px #3882F6;
+    border-radius: 12px;
+}
+
