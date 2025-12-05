@@ -40,18 +40,21 @@ ul  {
 .htop {
     display:flex;
     justify-content: space-between;
+    gap:32px;
     align-items: center;
 }
 
 .hbottom {
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap:24px;
 }
 
 .hbottom img {
     height: auto;
-    width: 450px;
+    width: 400px;
+    border-radius:12px;
 }
 
 
@@ -130,5 +133,12 @@ h2 {
     padding:8px;
     border:solid 2px #F9F8FA;
     border-radius: 12px;
+}
+
+.Footer{
+    color:#F9F8FA;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 18px
 }
 
